@@ -18,6 +18,7 @@
         <gx-kafka-starter.version>1.4.0</gx-kafka-starter.version>
         <gx-redis-starter.version>1.4.0</gx-redis-starter.version>
         <gx-std-starter.version>1.4.0</gx-std-starter.version>
+
         <org.jetbrains.annotations.version>22.0.0</org.jetbrains.annotations.version>
 
         <org.springframework.boot.version>2.6.0</org.springframework.boot.version>
