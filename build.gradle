@@ -1,0 +1,49 @@
+plugins {
+    id 'java-platform'
+    id 'maven-publish'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+publishing {
+    publications {
+        myPlatform(MavenPublication) {
+            from components.javaPlatform
+        }
+    }
+}
+
+group = 'ru.gx.core'
+version = "1.4.2"
+
+ext {
+    gxStarterVersion = "1.4.2"
+    gxDataStarterVersion = "1.4.2"
+    gxKafkaStarterVersion = "1.4.2"
+    gxRedisStarterVersion = "1.4.2"
+    gxStdStarterVersion = "1.4.2"
+    orgJetbrainsAnnotationsVersion = "22.0.0"
+    ioSwaggerCoreSwaggerAnnotations = "2.1.11"
+    orgSpringdocOpenApiUiVersion = "1.5.13"
+    orgSpringframeworkBootDependenciesVersion = "2.6.2"
+    mavenCompilerPluginVersion = "3.8.1"
+}
+
+dependencies {
+    constraints {
+        runtime "ru.gx.core:gx-starter:" + gxStarterVersion
+        runtime "ru.gx.core:gx-data-starter:" + gxDataStarterVersion
+        runtime "ru.gx.core:gx-kafka-starter:" + gxKafkaStarterVersion
+        runtime "ru.gx.core:gx-redis-starter:" + gxRedisStarterVersion
+        runtime "ru.gx.core:gx-std-starter:" + gxStdStarterVersion
+        runtime "org.jetbrains:annotations:" + orgJetbrainsAnnotationsVersion
+        runtime "io.swagger.core.v3:swagger-annotations:" + orgJetbrainsAnnotationsVersion
+        runtime "org.springdoc:springdoc-openapi-ui:" + orgSpringdocOpenApiUiVersion
+        api "org.springframework.boot:spring-boot-dependencies:" + orgSpringframeworkBootDependenciesVersion
+        api "org.apache.maven.plugins:maven-compiler-plugin:" + mavenCompilerPluginVersion
+        api "org.springframework.boot:spring-boot-maven-plugin:" + orgSpringframeworkBootDependenciesVersion
+    }
+}
