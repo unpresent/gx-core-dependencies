@@ -1,6 +1,6 @@
 plugins {
-    id 'java-platform'
-    id 'maven-publish'
+    id "java-platform"
+    id "maven-publish"
 }
 
 repositories {
@@ -16,34 +16,31 @@ publishing {
     }
 }
 
-group = 'ru.gx.core'
+group = "ru.gx.core"
 version = "1.4.2"
-
-ext {
-    gxStarterVersion = "1.4.2"
-    gxDataStarterVersion = "1.4.2"
-    gxKafkaStarterVersion = "1.4.2"
-    gxRedisStarterVersion = "1.4.2"
-    gxStdStarterVersion = "1.4.2"
-    orgJetbrainsAnnotationsVersion = "22.0.0"
-    ioSwaggerCoreSwaggerAnnotations = "2.1.11"
-    orgSpringdocOpenApiUiVersion = "1.5.13"
-    orgSpringframeworkBootDependenciesVersion = "2.6.2"
-    mavenCompilerPluginVersion = "3.8.1"
-}
 
 dependencies {
     constraints {
-        runtime "ru.gx.core:gx-starter:" + gxStarterVersion
-        runtime "ru.gx.core:gx-data-starter:" + gxDataStarterVersion
-        runtime "ru.gx.core:gx-kafka-starter:" + gxKafkaStarterVersion
-        runtime "ru.gx.core:gx-redis-starter:" + gxRedisStarterVersion
-        runtime "ru.gx.core:gx-std-starter:" + gxStdStarterVersion
-        runtime "org.jetbrains:annotations:" + orgJetbrainsAnnotationsVersion
-        runtime "io.swagger.core.v3:swagger-annotations:" + orgJetbrainsAnnotationsVersion
-        runtime "org.springdoc:springdoc-openapi-ui:" + orgSpringdocOpenApiUiVersion
-        api "org.springframework.boot:spring-boot-dependencies:" + orgSpringframeworkBootDependenciesVersion
-        api "org.apache.maven.plugins:maven-compiler-plugin:" + mavenCompilerPluginVersion
-        api "org.springframework.boot:spring-boot-maven-plugin:" + orgSpringframeworkBootDependenciesVersion
+        // gx.core:
+        api "ru.gx.core:gx-starter:1.4.2" // + gxStarterVersion
+        api "ru.gx.core:gx-data-starter:1.4.2" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-kafka-starter:1.4.2" // + gxKafkaStarterVersion
+        api "ru.gx.core:gx-redis-starter:1.4.2" // + gxRedisStarterVersion
+        api "ru.gx.core:gx-std-starter:1.4.2" // + gxStdStarterVersion
+
+        // Spring Boot:
+        api "org.springframework.boot:spring-boot-dependencies:2.6.2" // + orgSpringframeworkBootDependenciesVersion
+
+        api "org.projectlombok:lombok:1.18.22"
+
+        api "org.jetbrains:annotations:22.0.0" // + orgJetbrainsAnnotationsVersion
+        api "io.swagger.core.v3:swagger-annotations:2.1.11" // + orgJetbrainsAnnotationsVersion
+        api "org.springdoc:springdoc-openapi-ui:1.5.13" // + orgSpringdocOpenApiUiVersion
+        api "org.apache.maven.plugins:maven-compiler-plugin:3.8.1" // + mavenCompilerPluginVersion
+        api "org.springframework.boot:spring-boot-maven-plugin:2.6.2" // + orgSpringframeworkBootDependenciesVersion
     }
 }
+
+//javaPlatform {
+//    allowDependencies()
+//}
