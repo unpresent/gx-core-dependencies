@@ -6,7 +6,7 @@
 
     <groupId>ru.gx.core</groupId>
     <artifactId>gx-core-dependencies</artifactId>
-    <version>1.4.2</version>
+    <version>1.4.3</version>
     <packaging>pom</packaging>
     <name>gx-core-dependencies</name>
 
@@ -15,11 +15,11 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <gx-starter.version>1.4.2</gx-starter.version>
-        <gx-data-starter.version>1.4.2</gx-data-starter.version>
-        <gx-kafka-starter.version>1.4.2</gx-kafka-starter.version>
+        <gx-starter.version>1.4.3</gx-starter.version>
+        <gx-data-starter.version>1.4.3</gx-data-starter.version>
+        <gx-kafka-starter.version>1.4.3</gx-kafka-starter.version>
         <gx-redis-starter.version>1.4.2</gx-redis-starter.version>
-        <gx-std-starter.version>1.4.2</gx-std-starter.version>
+        <gx-std-starter.version>1.4.3</gx-std-starter.version>
 
         <org.jetbrains.annotations.version>22.0.0</org.jetbrains.annotations.version>
         <io.swagger-annotations.version>2.1.11</io.swagger-annotations.version>

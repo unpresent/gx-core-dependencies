@@ -17,12 +17,12 @@ publishing {
 }
 
 group = "ru.gx.core"
-version = "1.4.2"
+version = "1.4.3"
 
 dependencies {
     constraints {
         // gx.core:
-        api "ru.gx.core:gx-starter:1.4.2" // + gxStarterVersion
+        api "ru.gx.core:gx-starter:1.4.3" // + gxStarterVersion
         api "ru.gx.core:gx-data-starter:1.4.2" //  + gxDataStarterVersion
         api "ru.gx.core:gx-kafka-starter:1.4.2" // + gxKafkaStarterVersion
         api "ru.gx.core:gx-redis-starter:1.4.2" // + gxRedisStarterVersion
