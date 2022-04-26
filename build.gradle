@@ -23,10 +23,10 @@ dependencies {
     constraints {
         // gx.core:
         api "ru.gx.core:gx-starter:1.4.3" // + gxStarterVersion
-        api "ru.gx.core:gx-data-starter:1.4.2" //  + gxDataStarterVersion
-        api "ru.gx.core:gx-kafka-starter:1.4.2" // + gxKafkaStarterVersion
-        api "ru.gx.core:gx-redis-starter:1.4.2" // + gxRedisStarterVersion
-        api "ru.gx.core:gx-std-starter:1.4.2" // + gxStdStarterVersion
+        api "ru.gx.core:gx-data-starter:1.4.3" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-kafka-starter:1.4.3" // + gxKafkaStarterVersion
+        api "ru.gx.core:gx-redis-starter:1.4.3" // + gxRedisStarterVersion
+        api "ru.gx.core:gx-std-starter:1.4.3" // + gxStdStarterVersion
 
         // Spring Boot:
         api "org.springframework.boot:spring-boot-dependencies:2.6.2" // + orgSpringframeworkBootDependenciesVersion
