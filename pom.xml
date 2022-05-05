@@ -5,24 +5,26 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>ru.gx.core</groupId>
-    <artifactId>core-dependencies</artifactId>
+    <artifactId>gx-core-dependencies</artifactId>
     <version>1.4.11</version>
     <packaging>pom</packaging>
-    <name>core-dependencies</name>
+    <name>gx-core-dependencies</name>
 
     <properties>
         <encoding>UTF-8</encoding>
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <core-root-starter.version>1.4.11</core-root-starter.version>
-        <core-data-starter.version>1.4.11</core-data-starter.version>
-        <core-kafka-starter.version>1.4.11</core-kafka-starter.version>
-        <core-redis-starter.version>1.4.11</core-redis-starter.version>
-        <core-std-starter.version>1.4.11</core-std-starter.version>
-        <core-rest-api-starter.version>1.4.11</core-rest-api-starter.version>
-        <core-rest-security-api-starter.version>1.4.11</core-rest-security-api-starter.version>
-        <core-test-lib.version>1.4.11</core-test-lib.version>
+        <gx-core-root-starter.version>1.4.11</gx-core-root-starter.version>
+        <gx-core-data-commons.version>1.4.11</gx-core-data-commons.version>
+        <gx-core-jdbc-starter.version>1.4.11</gx-core-jdbc-starter.version>
+        <gx-core-jpa-starter.version>1.4.11</gx-core-jpa-starter.version>
+        <gx-core-kafka-starter.version>1.4.11</gx-core-kafka-starter.version>
+        <gx-core-redis-starter.version>1.4.11</gx-core-redis-starter.version>
+        <gx-core-std-starter.version>1.4.11</gx-core-std-starter.version>
+        <gx-core-rest-api-starter.version>1.4.11</gx-core-rest-api-starter.version>
+        <gx-core-rest-security-api-starter.version>1.4.11</gx-core-rest-security-api-starter.version>
+        <gx-core-test-lib.version>1.4.11</gx-core-test-lib.version>
 
         <org.jetbrains.annotations.version>23.0.0</org.jetbrains.annotations.version> <!-- 10.11.2021 -->
         <io.swagger-annotations.version>2.1.13</io.swagger-annotations.version> <!-- 11.02.2022 -->
@@ -64,43 +66,53 @@
 
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-root-starter</artifactId>
-                <version>${core-root-starter.version}</version>
+                <artifactId>gx-core-root-starter</artifactId>
+                <version>${gx-core-root-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-data-starter</artifactId>
-                <version>${core-data-starter.version}</version>
+                <artifactId>gx-core-data-commons</artifactId>
+                <version>${gx-core-data-commons.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-kafka-starter</artifactId>
-                <version>${core-kafka-starter.version}</version>
+                <artifactId>gx-core-jdbc-starter</artifactId>
+                <version>${gx-core-jdbc-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-redis-starter</artifactId>
-                <version>${core-redis-starter.version}</version>
+                <artifactId>gx-core-jpa-starter</artifactId>
+                <version>${gx-core-jpa-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-std-starter</artifactId>
-                <version>${core-std-starter.version}</version>
+                <artifactId>gx-core-kafka-starter</artifactId>
+                <version>${gx-core-kafka-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-rest-api-starter</artifactId>
-                <version>${core-rest-api-starter.version}</version>
+                <artifactId>gx-core-redis-starter</artifactId>
+                <version>${gx-core-redis-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-rest-security-api-starter</artifactId>
-                <version>${core-rest-security-api-starter.version}</version>
+                <artifactId>gx-core-std-starter</artifactId>
+                <version>${gx-core-std-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
-                <artifactId>core-test-lib</artifactId>
-                <version>${core-test-lib.version}</version>
+                <artifactId>gx-core-rest-api-starter</artifactId>
+                <version>${gx-core-rest-api-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.gx.core</groupId>
+                <artifactId>gx-core-rest-security-api-starter</artifactId>
+                <version>${gx-core-rest-security-api-starter.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>ru.gx.core</groupId>
+                <artifactId>gx-core-test-lib</artifactId>
+                <version>${gx-core-test-lib.version}</version>
             </dependency>
 
             <dependency>

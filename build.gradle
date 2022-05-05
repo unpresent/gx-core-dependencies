@@ -16,20 +16,19 @@ publishing {
     }
 }
 
-group = "ru.gx.core"
-version = "1.4.3"
-
 dependencies {
     constraints {
         // gx.core:
-        api "ru.gx.core:gx-starter:1.4.3" // + gxStarterVersion
-        api "ru.gx.core:gx-data-starter:1.4.3" //  + gxDataStarterVersion
-        api "ru.gx.core:gx-kafka-starter:1.4.3" // + gxKafkaStarterVersion
-        api "ru.gx.core:gx-redis-starter:1.4.3" // + gxRedisStarterVersion
-        api "ru.gx.core:gx-std-starter:1.4.3" // + gxStdStarterVersion
+        api "ru.gx.core:gx-core-starter:1.4.11" // + gxStarterVersion
+        api "ru.gx.core:gx-core-data-commons:1.4.11" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-jdbc-starter:1.4.11" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-jpa-starter:1.4.11" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-kafka-starter:1.4.11" // + gxKafkaStarterVersion
+        api "ru.gx.core:gx-core-redis-starter:1.4.11" // + gxRedisStarterVersion
+        api "ru.gx.core:gx-core-std-starter:1.4.11" // + gxStdStarterVersion
 
         // Spring Boot:
-        api "org.springframework.boot:spring-boot-dependencies:2.6.2" // + orgSpringframeworkBootDependenciesVersion
+        api "org.springframework.boot:spring-boot-dependencies:2.6.7" // + orgSpringframeworkBootDependenciesVersion
 
         api "org.projectlombok:lombok:1.18.22"
 
