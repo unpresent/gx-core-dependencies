@@ -19,13 +19,13 @@ publishing {
 dependencies {
     constraints {
         // gx.core:
-        api "ru.gx.core:gx-core-starter:1.5.0" // + gxStarterVersion
-        api "ru.gx.core:gx-core-data-commons:1.5.0" //  + gxDataStarterVersion
-        api "ru.gx.core:gx-core-jdbc-starter:1.5.0" //  + gxDataStarterVersion
-        api "ru.gx.core:gx-core-jpa-starter:1.5.0" //  + gxDataStarterVersion
-        api "ru.gx.core:gx-core-kafka-starter:1.5.0" // + gxKafkaStarterVersion
-        api "ru.gx.core:gx-core-redis-starter:1.5.0" // + gxRedisStarterVersion
-        api "ru.gx.core:gx-core-std-starter:1.5.0" // + gxStdStarterVersion
+        api "ru.gx.core:gx-core-starter:1.5.1" // + gxStarterVersion
+        api "ru.gx.core:gx-core-data-commons:1.5.1" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-jdbc-starter:1.5.1" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-jpa-starter:1.5.1" //  + gxDataStarterVersion
+        api "ru.gx.core:gx-core-kafka-starter:1.5.1" // + gxKafkaStarterVersion
+        api "ru.gx.core:gx-core-redis-starter:1.5.1" // + gxRedisStarterVersion
+        api "ru.gx.core:gx-core-std-starter:1.5.1" // + gxStdStarterVersion
 
         // Spring Boot:
         api "org.springframework.boot:spring-boot-dependencies:2.6.7" // + orgSpringframeworkBootDependenciesVersion

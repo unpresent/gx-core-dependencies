@@ -6,7 +6,7 @@
 
     <groupId>ru.gx.core</groupId>
     <artifactId>gx-core-dependencies</artifactId>
-    <version>1.5.0</version>
+    <version>1.5.1</version>
     <packaging>pom</packaging>
     <name>gx-core-dependencies</name>
 
@@ -15,16 +15,16 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
 
-        <gx-core-root-starter.version>1.5.0</gx-core-root-starter.version>
-        <gx-core-data-commons.version>1.5.0</gx-core-data-commons.version>
-        <gx-core-jdbc-starter.version>1.5.0</gx-core-jdbc-starter.version>
-        <gx-core-jpa-starter.version>1.5.0</gx-core-jpa-starter.version>
-        <gx-core-kafka-starter.version>1.5.0</gx-core-kafka-starter.version>
-        <gx-core-redis-starter.version>1.5.0</gx-core-redis-starter.version>
-        <gx-core-std-starter.version>1.5.0</gx-core-std-starter.version>
-        <gx-core-rest-api-starter.version>1.5.0</gx-core-rest-api-starter.version>
-        <gx-core-rest-security-api-starter.version>1.5.0</gx-core-rest-security-api-starter.version>
-        <gx-core-test-lib.version>1.5.0</gx-core-test-lib.version>
+        <gx-core-root-starter.version>1.5.1</gx-core-root-starter.version>
+        <gx-core-data-commons.version>1.5.1</gx-core-data-commons.version>
+        <gx-core-jdbc-starter.version>1.5.1</gx-core-jdbc-starter.version>
+        <gx-core-jpa-starter.version>1.5.1</gx-core-jpa-starter.version>
+        <gx-core-kafka-starter.version>1.5.1</gx-core-kafka-starter.version>
+        <gx-core-redis-starter.version>1.5.1</gx-core-redis-starter.version>
+        <gx-core-std-starter.version>1.5.1</gx-core-std-starter.version>
+        <gx-core-rest-api-starter.version>1.5.1</gx-core-rest-api-starter.version>
+        <gx-core-rest-security-api-starter.version>1.5.1</gx-core-rest-security-api-starter.version>
+        <gx-core-test-lib.version>1.5.1</gx-core-test-lib.version>
 
         <org.jetbrains.annotations.version>23.0.0</org.jetbrains.annotations.version> <!-- 10.11.2021 -->
         <io.swagger-annotations.version>2.1.13</io.swagger-annotations.version> <!-- 11.02.2022 -->
