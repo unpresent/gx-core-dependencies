@@ -43,7 +43,7 @@
         <org.testcontainers.version>1.16.3</org.testcontainers.version> <!-- 19.01.2022 -->
 
         <maven-compiler-plugin.version>3.10.0</maven-compiler-plugin.version> <!-- 14.02.2022 -->
-        <org.springframework.boot.version>2.6.7</org.springframework.boot.version> <!-- 21.04.2022 (*) -->
+        <org.springframework.boot.version>2.7.0</org.springframework.boot.version> <!-- 21.04.2022 (*) -->
     </properties>
 
     <dependencyManagement>
