@@ -6,7 +6,7 @@
 
     <groupId>ru.gx.core</groupId>
     <artifactId>gx-core-dependencies</artifactId>
-    <version>1.5.2</version>
+    <version>1.5.9</version>
     <packaging>pom</packaging>
     <name>gx-core-dependencies</name>
 
