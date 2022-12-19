@@ -96,7 +96,7 @@
                 <version>${gx-core-redis-starter.version}</version>
             </dependency>
             <dependency>
-                <groupId>ru.gx..core</groupId>
+                <groupId>ru.gx.core</groupId>
                 <artifactId>gx-core-publisher-starter</artifactId>
                 <version>${gx-core-publisher-starter.version}</version>
             </dependency>
