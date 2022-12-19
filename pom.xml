@@ -21,7 +21,7 @@
         <gx-core-jpa-starter.version>1.5.23</gx-core-jpa-starter.version>
         <gx-core-kafka-starter.version>1.5.23</gx-core-kafka-starter.version>
         <gx-core-redis-starter.version>1.5.23</gx-core-redis-starter.version>
-        <core-publisher-starter.version>1.5.23</core-publisher-starter.version>
+        <gx-core-publisher-starter.version>1.5.23</gx-core-publisher-starter.version>
         <gx-core-std-starter.version>1.5.23</gx-core-std-starter.version>
         <gx-core-rest-api-starter.version>1.5.23</gx-core-rest-api-starter.version>
         <gx-core-rest-security-api-starter.version>1.5.23</gx-core-rest-security-api-starter.version>
@@ -97,8 +97,8 @@
             </dependency>
             <dependency>
                 <groupId>ru.gx..core</groupId>
-                <artifactId>core-publisher-starter</artifactId>
-                <version>${core-publisher-starter.version}</version>
+                <artifactId>gx-core-publisher-starter</artifactId>
+                <version>${gx-core-publisher-starter.version}</version>
             </dependency>
             <dependency>
                 <groupId>ru.gx.core</groupId>
