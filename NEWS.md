@@ -1,5 +1,9 @@
 ## Common NEWS for all libs and services core-java
 
+### v1.5.24
+* Добавлена установка времени жизни (3 часа) для записей временных коллекций, которые используются для 
+пакетной выгрузки в Redis. По истечение этого времени Redis будет удалять такие ключи. 
+
 ### v1.5.23
 
 * Важное изменение в работе [AbstractWorker](/../gx-core-root-starter/src/main/java/ru/gx/core/worker/AbstractWorker.java).
