@@ -1,5 +1,8 @@
 ## Common NEWS for all libs and services core-java
 
+### v1.5.26
+* Исправлена ошибка KafkaSimpleListener. Исправлена установка флага setImmediateRunNextIteration(true).
+
 ### v1.5.25
 * Исправлена ошибка в механизме перезапуска Runner-а в AbstractWorker-е.
 
